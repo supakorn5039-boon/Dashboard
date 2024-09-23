@@ -5,7 +5,7 @@ export default function Navbar() {
   return (
     <div className="flex items-center justify-between p-4">
       {/* Seach bar */}
-      <div className="hiddent md:flex items-center gap-2 text-xs rounded-full ring-[1.5px] ring-gray-300 px-2">
+      <div className="hidden md:flex items-center gap-2 text-xs rounded-full ring-[1.5px] ring-gray-300 px-2">
         <Image src="/search.png" alt="" width={12} height={12} />
         <input
           type="search"
@@ -25,7 +25,7 @@ export default function Navbar() {
           </div>
         </div>
         <div className="flex flex-col">
-          <span className="text-xs leading-3 font-medium">Jogn Doe</span>
+          <span className="text-xs leading-3 font-medium">Nebu1A</span>
           <span className="text-[10px] text-gray-500 text-right">Admin</span>
         </div>
         <Image

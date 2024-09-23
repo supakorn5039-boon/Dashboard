@@ -1,3 +1,4 @@
+import { ColumnType } from "@/types/ColumnType";
 import { EventType } from "@/types/EventType";
 
 export const events: EventType[] = [

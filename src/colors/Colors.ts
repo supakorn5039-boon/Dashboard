@@ -4,4 +4,5 @@ export const Colors = {
   Tick: "#d1d5db",
   Income: "#09f625",
   Expense: "#f60909",
+  Pie: "#8884d8",
 };

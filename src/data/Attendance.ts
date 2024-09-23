@@ -1,4 +1,5 @@
 import { AttendanceType } from "@/types/AttendanceType";
+import { ColumnType } from "@/types/ColumnType";
 
 export const Attendance: AttendanceType[] = [
   {
@@ -25,5 +26,31 @@ export const Attendance: AttendanceType[] = [
     name: "Fri",
     present: 65,
     absent: 55,
+  },
+];
+
+export const columns: ColumnType[] = [
+  {
+    header: "Info",
+    accessor: "info",
+  },
+  {
+    header: "Student Names",
+    accessor: "students",
+    className: "hidden md:table-cell",
+  },
+  {
+    header: "Phone",
+    accessor: "phone",
+    className: "hidden md:table-cell",
+  },
+  {
+    header: "Address",
+    accessor: "address",
+    className: "hidden md:table-cell",
+  },
+  {
+    header: "Actions",
+    accessor: "actions",
   },
 ];

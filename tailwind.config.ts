@@ -20,6 +20,7 @@ const config: Config = {
         NePurpleLight: "#F1F0FF",
         NeYellow: "#FAE27C",
         NeYellowLight: "#FEFCE8",
+        NeLayout: "#F7F8FA",
       },
     },
   },
